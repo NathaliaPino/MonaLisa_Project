@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+    background: repeating-linear-gradient(0deg, #fff 0%,#fff 50%,#000 50%, #000 100%),repeating-linear-gradient(90deg, #fff, 0%,#fff 50%,#000 50%, #000 100%);
+    background-size: 30px 30px;
+    background-blend-mode: difference;
+    overflow: hidden;
+}
+
+span {
+
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url(assets/Da_Vinci\'s_Mona_Lisa_with_original_colors_approximation3.jpg);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    pointer-events: none;
+    border-radius: 50%;
+    mix-blend-mode: normal;
+    
+}
+
+
+main .botao {
+
+   margin-left: 25%;
+   margin-top: 30%;   
+   padding: 50px;
+   
+
+}
+
+main .nome {
+
+    
+    text-decoration: none;
+    font-size: 35px;
+    
+ 
+ 
+ }
+
+
